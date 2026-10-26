@@ -396,3 +396,10 @@ Python 3.11 · OpenCV · scikit-image · PyTorch / torchvision (ResNet-50) · FA
 
 SQLite FTS5 · FastAPI · Uvicorn · Streamlit · pandas · matplotlib · Docker
 
+
+
+## Base de donnees
+
+Les fichiers volumineux sont disponibles dans la Release v1.0 : https://github.com/Sirinebenyahia/cbir-supcom/releases
+
+Telecharger BD_cbir_db.zip, BD_features.zip et BD_indexes.zip, puis les decompresser a la racine du projet (on obtient cbir.db, features/ et indexes/).
