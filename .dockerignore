@@ -1,0 +1,7 @@
+data/
+features/
+indexes/
+rapport/
+cbir.db
+**/__pycache__/
+*.zip

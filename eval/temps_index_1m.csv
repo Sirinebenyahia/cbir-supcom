@@ -1,0 +1,7 @@
+Descripteur;nprobe;Exhaustif (ms);Index IVF (ms);Gain;Résultats exacts retrouvés (%)
+EH;4;406.8;0.47;x874;79
+EH;16;374.6;0.97;x387;94
+EH;64;363.0;2.92;x124;100
+HT;4;115.5;0.15;x758;87
+HT;16;113.4;0.32;x358;99
+HT;64;114.9;1.03;x111;100

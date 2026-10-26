@@ -1,0 +1,10 @@
+data/
+features/
+indexes/
+cbir.db
+*.zip
+*.mp4
+rapport/videos/
+__pycache__/
+*.pyc
+*.pdf

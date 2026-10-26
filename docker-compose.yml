@@ -1,0 +1,18 @@
+services:
+  cbir:
+    build: .
+    image: cbir-supcom
+    container_name: cbir
+    ports:
+      - "8000:8000"   # serveur FastAPI (API + images)
+      - "8501:8501"   # interface web Streamlit
+    volumes:
+      # Les données lourdes restent sur le PC et sont partagées avec le conteneur
+      - ./data:/app/data:ro
+      - ./features:/app/features:ro
+      - ./indexes:/app/indexes:ro
+      - ./rapport:/app/rapport:ro
+      - ./eval:/app/eval:ro
+      - ./cbir.db:/app/cbir.db
+      # Modèle ResNet-50 déjà téléchargé (évite de le retélécharger dans le conteneur)
+      - /mnt/c/Users/sirin/.cache/torch:/root/.cache/torch:ro
